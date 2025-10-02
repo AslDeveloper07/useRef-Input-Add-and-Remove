@@ -8,7 +8,7 @@ const DynamicInputs = () => {
   const addInput = () => {
     const lastInputValue = reffer.current[inputs.length - 1]?.value || "";
 
-    // Regex: faqat bo'sh joy (space, tab...) bo'lsa bloklanadi
+    
     if (!lastInputValue.trim()) {
       alert("Iltimos, oxirgi inputni to‘ldiring!");
       return;
